@@ -4,12 +4,12 @@
 
     // 기본 일정 리스트 (초기값)
     let items = buildClockItems([
-        { schedule: "잠", time: "8시간", minutes: 480 },
-        { schedule: "공부", time: "4시간", minutes: 240 },
-        { schedule: "점심", time: "1시간", minutes: 60 },
-        { schedule: "운동", time: "1시간", minutes: 60 },
-        { schedule: "휴식", time: "2시간", minutes: 120 },
-        { schedule: "자유시간", time: "8시간", minutes: 480 }
+        { schedule: "잠", time: "4시간", minutes: 240 },
+        { schedule: "잠", time: "4시간", minutes: 240 },
+        { schedule: "잠", time: "4시간", minutes: 240 },
+        { schedule: "잠", time: "4시간", minutes: 240 },
+        { schedule: "잠", time: "4시간", minutes: 240 },
+        { schedule: "잠", time: "4시간", minutes: 240 }
     ]);
 
     // 부채꼴 색상들 (반복 사용)
