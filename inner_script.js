@@ -361,8 +361,10 @@
 
             const winningItem = items[winningIndex];
 
-            alert(`선택된 시간대는 [ ${winningItem.range} ], 일정은 [ ${winningItem.schedule} ] 입니다!`);
-
+            alert( `두구두구… 룰렛의 장난스러운 선택! [ ${winningItem.range} ], 의 [ ${winningItem.schedule} ] 가 뿅 나왔어요!( ˶˙ᵕ˙˶ )`);
+            
+            
+            
             // 다음 번 돌리기를 위해 각도 리셋 (부드러운 효과를 위해 transition 잠시 제거)
             canvas.style.transition = "none";
             canvas.style.transform = `rotate(${actualDegrees}deg)`;
